@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kafka-poc"
+version = "0.1.0"
+description = "Learning how to kafka"
+authors = ["Your Name <you@example.com>"]
+license = "MJIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+kafkatool = "^0.0.4"
+
+[tool.poetry.dev-dependencies]
+131228_pytest_1 = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
