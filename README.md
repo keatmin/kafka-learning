@@ -1,4 +1,5 @@
-## Setup 1. Run `docker compose -d up` 
+## Setup 
+1. Run `docker compose -d up` 
 2. Run
 ```bash
 docker compose exec broker \
